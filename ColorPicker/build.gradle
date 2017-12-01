@@ -19,6 +19,6 @@ dependencies {
   compile 'com.android.support:appcompat-v7:26.1.0'
 }
 
-apply plugin: 'com.getkeepsafe.dexcount'
+//apply plugin: 'com.getkeepsafe.dexcount'
 
-apply from: rootProject.file('gradle/maven-push.gradle')
+//apply from: rootProject.file('gradle/maven-push.gradle')
