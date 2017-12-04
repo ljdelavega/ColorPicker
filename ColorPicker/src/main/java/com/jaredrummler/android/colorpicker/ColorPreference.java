@@ -149,7 +149,7 @@ public class ColorPreference extends Preference implements ColorPickerDialogList
     saveValue(color);
   }
 
-  @Override public void onDialogDismissed(int dialogId) {
+  @Override public void onColorDialogDismissed(int dialogId) {
     // no-op
   }
 

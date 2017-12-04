@@ -39,6 +39,6 @@ public interface ColorPickerDialogListener {
    * @param dialogId
    *     The dialog id used to create the dialog instance.
    */
-  void onDialogDismissed(int dialogId);
+  void onColorDialogDismissed(int dialogId);
 
 }

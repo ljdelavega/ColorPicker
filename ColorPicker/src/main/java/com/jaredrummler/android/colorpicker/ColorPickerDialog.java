@@ -245,7 +245,7 @@ public class ColorPickerDialog extends DialogFragment implements OnTouchListener
 
   @Override public void onDismiss(DialogInterface dialog) {
     super.onDismiss(dialog);
-    colorPickerDialogListener.onDialogDismissed(dialogId);
+    colorPickerDialogListener.onColorDialogDismissed(dialogId);
   }
 
   @Override public void onSaveInstanceState(Bundle outState) {

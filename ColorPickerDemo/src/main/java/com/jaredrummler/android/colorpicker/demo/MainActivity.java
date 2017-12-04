@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements ColorPickerDialog
     }
   }
 
-  @Override public void onDialogDismissed(int dialogId) {
+  @Override public void onColorDialogDismissed(int dialogId) {
 
   }
 
